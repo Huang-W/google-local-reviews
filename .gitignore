@@ -1,3 +1,7 @@
+places.clean.json
+reviews.clean.json
+users.clean.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
