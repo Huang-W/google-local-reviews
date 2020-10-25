@@ -1,6 +1,7 @@
 backcall==0.2.0
 certifi==2020.6.20
 cycler==0.10.0
+dask==2.30.0
 decorator==4.4.2
 ipykernel==5.3.4
 ipython==7.16.1
@@ -23,6 +24,7 @@ Pygments==2.7.2
 pyparsing==2.4.7
 python-dateutil==2.8.1
 pytz==2020.1
+PyYAML==5.3.1
 pyzmq==19.0.2
 scikit-learn==0.23.2
 scikit-surprise==1.1.1
