@@ -1,4 +1,6 @@
-cmpe256-team4-venv
+dask-worker-space/
+
+cmpe256-team4-venv/
 
 places.clean.json
 reviews.clean.json
