@@ -1,5 +1,7 @@
 only_restaurants_review.csv/
 places/
+reviews/
+users/
 
 dask-worker-space/
 
