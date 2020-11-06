@@ -6,6 +6,13 @@ Place your original data-sets like
 - data/places.clean.json
 - data/reviews.clean.json
 
+## For split data
+Place your split data-sets like
+- places/
+- reviews/
+- reviews_restaurants/
+- users/
+
 ## setup
 1. pip install virtualenv
 2. virtualenv venv
