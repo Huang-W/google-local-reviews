@@ -1,3 +1,10 @@
+only_restaurants_review.csv/
+places/
+reviews/
+reviews_restaurants/
+users/
+data/
+
 dask-worker-space/
 
 cmpe256-team4-venv/
@@ -5,6 +12,9 @@ cmpe256-team4-venv/
 places.clean.json
 reviews.clean.json
 users.clean.json
+places.clean.json.gz
+reviews.clean.json.gz
+users.clean.json.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
