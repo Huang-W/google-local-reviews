@@ -1,5 +1,8 @@
 # cmpe256-team4
 
+## [Lenskit MultiEval starter code](https://github.com/lenskit/lkpy/blob/master/examples/MultiEval.ipynb)
+## [Lenskit nDCG starter code](https://lkpy.lenskit.org/en/latest/GettingStarted.html)
+
 ## [Original data-sets](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local)
 - data/users.clean.json
 - data/places.clean.json
