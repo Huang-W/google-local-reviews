@@ -1,5 +1,13 @@
 # cmpe256-team4
 
+## Libraries used / Sample starter code
+- Ipynb from class ( surprise, titanic, data prep )
+- [Seaborn](https://seaborn.pydata.org/tutorial.html)
+- [Geoplot](https://residentmario.github.io/geoplot/quickstart/quickstart.html)
+- [thampiman/reverse-geocoder](https://github.com/thampiman/reverse-geocoder)
+- [Lenskit MultiEval starter code](https://github.com/lenskit/lkpy/blob/master/examples/MultiEval.ipynb)
+- [Lenskit nDCG starter code](https://lkpy.lenskit.org/en/latest/GettingStarted.html)
+
 ## [Original data-sets](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local)
 - data/users.clean.json
 - data/places.clean.json
@@ -24,6 +32,8 @@
 2. virtualenv venv
 3. source venv/bin/activate
 4. pip install ipykernel
-5. ipython kernel install --user --name=venv
-6. jupyter lab
-7. Open your Notebook with the newly created kernel!
+5. pip install reverse-geocoder
+6. pip install geoplot
+7. ipython kernel install --user --name=venv
+8. jupyter lab
+9. Open your Notebook with the newly created kernel!
