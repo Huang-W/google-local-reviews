@@ -1,10 +1,23 @@
 # cmpe256-team4
 
-## For data
-Place your original data-sets like
+## [Original data-sets](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local)
 - data/users.clean.json
 - data/places.clean.json
 - data/reviews.clean.json
+
+## Original data-sets split into multiple files
+- places/
+- reviews/
+- reviews_restaurants/
+- users/
+
+## Additionally added datasets
+- [data/us_cities.csv](https://github.com/kelvins/US-Cities-Database)
+
+## Subsets of above datasets after processing
+- data/us_cities_rg.csv
+- data/usa_df.csv
+- data/only_restaurants_review.csv
 
 ## setup
 1. pip install virtualenv
