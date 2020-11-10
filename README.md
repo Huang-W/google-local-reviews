@@ -7,6 +7,7 @@
 - [thampiman/reverse-geocoder](https://github.com/thampiman/reverse-geocoder)
 - [Lenskit MultiEval starter code](https://github.com/lenskit/lkpy/blob/master/examples/MultiEval.ipynb)
 - [Lenskit nDCG starter code](https://lkpy.lenskit.org/en/latest/GettingStarted.html)
+- [Rake nltk](https://pypi.org/project/rake-nltk/)
 
 ## [Original data-sets](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local)
 - data/users.clean.json
@@ -35,6 +36,7 @@
 4. pip install ipykernel
 5. pip install reverse-geocoder
 6. pip install geoplot
-7. ipython kernel install --user --name=venv
-8. jupyter lab
-9. Open your Notebook with the newly created kernel!
+7. pip install rake-nltk
+8. ipython kernel install --user --name=venv
+9. jupyter lab
+10. Open your Notebook with the newly created kernel!
