@@ -7,7 +7,6 @@
 - [thampiman/reverse-geocoder](https://github.com/thampiman/reverse-geocoder)
 - [Lenskit MultiEval starter code](https://github.com/lenskit/lkpy/blob/master/examples/MultiEval.ipynb)
 - [Lenskit nDCG starter code](https://lkpy.lenskit.org/en/latest/GettingStarted.html)
-- [Surprise](https://surprise.readthedocs.io/en/stable/index.html)
 
 ## [Original data-sets](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local)
 - data/users.clean.json
