@@ -60,6 +60,7 @@ pytz==2020.1
 PyYAML==5.3.1
 pyzmq==19.0.2
 reverse-geocode==1.4.1
+rake-nltk==1.0.4
 scikit-learn==0.23.2
 scikit-surprise==1.1.1
 scipy==1.5.3
