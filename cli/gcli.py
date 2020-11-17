@@ -174,7 +174,7 @@ if __name__ == '__main__':
     for i in range(min(3, len(places_rec))):
         obj = places_rec[i]
         print(f'Restaurant Name: {obj["Place"]}')
-        print(f'Categories:      {obj["Categories"]}')
+        # print(f'Categories:      {obj["Categories"]}')
         print(f'Average Rating:  {obj["Rating"]:.1f}')
         print(f'Price Range:     {obj["Price"]}')
         print(f'Address:         {" ".join(eval(obj["Address"]))}')
