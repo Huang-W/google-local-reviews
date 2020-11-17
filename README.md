@@ -33,6 +33,7 @@
 - pip3 install pandas
 - pip3 install sklearn
 - pip3 install sqlalchemy
+- pip3 install geopy
 - gunzip --keep cli/usa_df_content.csv.gz > cli/usa_df_content.csv
 - python3 ./cli/gcli.py --location {"City, State" or "long, lat"} --categories {cat1, cat2}
 - Example1: `python3 ./cli/gcli.py --location "San Jose, CA" --categories barbecue`
