@@ -36,6 +36,9 @@
 - pip3 install geopy
 - gunzip --keep cli/usa_df_content.csv.gz > cli/usa_df_content.csv
 - python3 ./cli/gcli.py --location {"City, State" or "long, lat"} --categories {cat1, cat2}
-- Example1: `python3 ./cli/gcli.py --location "San Jose, CA" --categories pizza`
-- Example2: `python3 ./cli/gcli.py --location "San Jose, CA" --categories sushi`
-- Example3: `python3 ./cli/gcli.py --location "Los Angeles, CA" --categories american buffet`
+
+Included examples:
+- Example1: `python3 ./cli/gcli.py --location "Fort Lauderdale, FL" --categories sushi buffet`
+- Example2: `python3 ./cli/gcli.py --location "Bakersfield, CA" --categories indian buffet`
+- Example3: `python3 ./cli/gcli.py --location "San Jose, CA" --categories american`
+- Clear out the cached results: `./cli/clean.sh`
