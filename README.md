@@ -3,6 +3,8 @@
 ## Dataset
 - [Link](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local)
 
+## Go to `/html_outputs` for html outputs
+
 ## Dependencies / starter-code used
 - Ipynb from class ( surprise, titanic, data prep )
 - [Seaborn](https://seaborn.pydata.org/tutorial.html)
