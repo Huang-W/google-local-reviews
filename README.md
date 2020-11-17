@@ -1,5 +1,8 @@
 # cmpe256-team4
 
+## Dataset
+- [Link](https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local)
+
 ## Dependencies / starter-code used
 - Ipynb from class ( surprise, titanic, data prep )
 - [Seaborn](https://seaborn.pydata.org/tutorial.html)
