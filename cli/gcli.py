@@ -179,10 +179,13 @@ if __name__ == '__main__':
     # list top 3 by distance
     for i in range(min(3, len(places_rec))):
         obj = places_rec[i]
-        print(f'Restaurant Name: {obj["Place"]}')
+        place = obj['Place']
+        addr = ' '.join(eval(obj['Address']))
+        print(f'Restaurant Name: {place}')
         # print(f'Categories:      {obj["Categories"]}')
         print(f'Average Rating:  {obj["Rating"]:.1f}')
         print(f'Price Range:     {obj["Price"]}')
-        print(f'Address:         {" ".join(eval(obj["Address"]))}')
+        print(f'Address:         {addr}')
         print(f'Phone:           {obj["Phone"]}')
-        print(f'Distance(km):    {obj["Distance(km)"]:.1f}\n')
+        print(f'Distance(km):    {obj["Distance(km)"]:.1f}')
+        print(f'Google Maps:     https://www.google.com/maps/search/?api=1&query={place.replace(" ", "+") + "+" + addr.replace(" ", "+").replace(",","%2C")}\n')
