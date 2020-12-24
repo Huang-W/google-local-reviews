@@ -1,6 +1,6 @@
 ## Web and Big Data Mining - Team G-Unit
 
-A project by Somya, Jaewoong, and Ward
+An SJSU project by Somya, Jaewoong, and Ward
 
 Dataset used: https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local
 
@@ -17,7 +17,7 @@ Dataset used: https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local
 - gunzip --keep cli/usa_df_content.csv.gz > cli/usa_df_content.csv
 - python3 ./cli/gcli.py --location {"City, State" or "long, lat"} --categories {cat1, cat2}
 
-### Included CLI examples:
+### Pre-cached examples:
 - Example1: `python3 ./cli/gcli.py --location "Fort Lauderdale, FL" --categories sushi buffet`
 - Example2: `python3 ./cli/gcli.py --location "Bakersfield, CA" --categories indian buffet`
 - Example3: `python3 ./cli/gcli.py --location "San Jose, CA" --categories american`
