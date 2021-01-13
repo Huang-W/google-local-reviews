@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import argparse
 import json
 from math import sin, cos, sqrt, atan2, radians
